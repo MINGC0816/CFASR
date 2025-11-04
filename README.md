@@ -29,7 +29,7 @@ conda install --yes --file requirements.txt
 
 We conduct experiments on the following benchmark datasets:
 
-TEXTZoom Text Image Super-Resolution Dataset
+TextZoom Text Image Super-Resolution Dataset
 
 Please refer to the corresponding dataset webpages or contact the authors for download links.
 
@@ -37,14 +37,11 @@ Please refer to the corresponding dataset webpages or contact the authors for do
 
 We provide pre-trained CFASR models and evaluation results on the above datasets.
 Download pre-trained weights from Google Drive (Coming Soon)
- and place them under the ./pretrained/ directory.
+ and place them under the ./ckpt/test.
 
 Then, run the following script to perform testing:
 
 ./test.sh
-
-
-Before testing, make sure that the input LR images are placed in the ./input/ folder. The reconstructed HR results will be saved to the ./results/ directory.
 
 ### 4. Train Models
 
@@ -64,4 +61,5 @@ We thank all contributors for insightful discussions and related open-source wor
 Our implementation is partially inspired by the following repositories:
 
 RTSRN
+TPGSR
 
