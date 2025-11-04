@@ -2,6 +2,8 @@ CFASR
 
 PyTorch implementation of “Dual-domain divide-and-conquer for scene text image super-resolution (CFASR)”.
 
+The source code will be released soon.
+
 Introduction
 Abstract
 
