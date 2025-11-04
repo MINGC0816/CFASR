@@ -4,8 +4,8 @@
 
 ## The source code will be released soon.
 
-##Introduction
-###Abstract
+## Introduction
+### Abstract
 
 Scene Text Image Super-Resolution (STISR) aims to reconstruct high-quality text images from low-resolution
 inputs to improve downstream text recognition accuracy. A critical problem lies in the fact that different regions
