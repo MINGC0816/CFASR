@@ -1,11 +1,11 @@
-CFASR
+# CFASR
 
-PyTorch implementation of “Dual-domain divide-and-conquer for scene text image super-resolution (CFASR)”.
+## PyTorch implementation of “Dual-domain divide-and-conquer for scene text image super-resolution (CFASR)”.
 
-The source code will be released soon.
+## The source code will be released soon.
 
-Introduction
-Abstract
+##Introduction
+###Abstract
 
 Scene Text Image Super-Resolution (STISR) aims to reconstruct high-quality text images from low-resolution
 inputs to improve downstream text recognition accuracy. A critical problem lies in the fact that different regions
@@ -19,13 +19,13 @@ domain, we propose a spatial divide-and-conquer module (SDC) to achieve divide-a
 spatial domain. Experimental results on the TextZoom benchmark dataset show that the recognition accuracy
 of the model in the downstream scene text recognition task reaches the SOTA level. 
 
-1. Requirements
+### 1. Requirements
 
 Simply run the following command to install dependencies (note: different scikit-image or torchvision versions may slightly affect results):
 
 conda install --yes --file requirements.txt
 
-2. Datasets
+### 2. Datasets
 
 We conduct experiments on the following benchmark datasets:
 
@@ -33,7 +33,7 @@ TEXTZoom Text Image Super-Resolution Dataset
 
 Please refer to the corresponding dataset webpages or contact the authors for download links.
 
-3. Evaluate the Pre-trained Models
+### 3. Evaluate the Pre-trained Models
 
 We provide pre-trained CFASR models and evaluation results on the above datasets.
 Download pre-trained weights from Google Drive (Coming Soon)
@@ -46,7 +46,7 @@ Then, run the following script to perform testing:
 
 Before testing, make sure that the input LR images are placed in the ./input/ folder. The reconstructed HR results will be saved to the ./results/ directory.
 
-4. Train Models
+### 4. Train Models
 
 To train CFASR from scratch, run:
 
@@ -57,7 +57,7 @@ You can modify the configuration file in ./configs/ to change the dataset path, 
 
 
 
-6. Acknowledgements
+### 5. Acknowledgements
 
 We thank all contributors for insightful discussions and related open-source works that inspired this project.
 
