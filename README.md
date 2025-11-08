@@ -6,7 +6,7 @@ This repository contains the source code for the Knowledge-Based Systems paper "
 ## 1 Task Introduction
 
 Text Image Super-Resolution, super-resolution reconstruction for text images. The reconstruction results of CFASR on the TextZoom dataset are as follows:
-![Visualization results](fig/architecture .png)
+![Visualization results](fig/visualize.png)
 
 ## 2 Performance Comparison:
 
