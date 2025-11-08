@@ -121,3 +121,5 @@ This command is in test_ Multi.sh, after use, the performance comparison table c
 · Text Prior Guided Scene Text Image Super-resolution [[Paper]](https://arxiv.org/pdf/2106.15368.pdf) [[Code]](https://github.com/mjq11302010044/TPGSR)
 
 · C3-STISR: Scene Text Image Super-resolution with Triple Clues [[Paper]](https://arxiv.org/pdf/2204.14044.pdf) [[Code]](https://github.com/zhaominyiz/C3-STISR)
+
+· RTSRN: Pixel Adapter: A Graph-Based Post-Processing Approach for Scene Text Image Super-Resolution [[Paper]](https://arxiv.org/pdf/2309.08919) [[Code]]([https://github.com/zhaominyiz/C3-STISR](https://github.com/wenyu1009/RTSRN))
