@@ -19,7 +19,7 @@ Our model compared to other SOTA models on the TextZoom dataset. The values in t
 ## 3 Model Introduction
 
 Our model is as follows:
-![Visualization results](fig/architecture .png)
+![Visualization results](fig/architecture.png)
 
 ## 4 Environment:
 
